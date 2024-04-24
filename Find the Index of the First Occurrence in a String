@@ -1,0 +1,7 @@
+def find_first_occurrence(text, pattern):
+    return text.find(pattern)
+
+text = "Hello, World! Hello, Python!"
+pattern = "Hello"
+first_occurrence_index = find_first_occurrence(text, pattern)
+print(first_occurrence_index)
